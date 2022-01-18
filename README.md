@@ -1,0 +1,1 @@
+# formation_python_projet_7_algo_trading
