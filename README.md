@@ -22,13 +22,13 @@ Il suffit de lancer le programme avec le fichier en paramètre console.
 
 # Lancer le programme forcebrute:
 
-`py forcebrute data/shares.csv` (windows)<br />
-`python forcebrute data/shares.csv` (linux)
+`py bruteforce.py data/shares.csv` (windows)<br />
+`python bruteforce.py data/shares.csv` (linux)
 
 # Lancer le programme optimized:
 
-`py optimized data/shares_dataset1.csv` (windows)<br />
-`python optimized data/shares_dataset1.csv` (linux)
+`py optimized.py data/shares_dataset1.csv` (windows)<br />
+`python optimized.py data/shares_dataset1.csv` (linux)
 
 # Installer et run flake8:
 
