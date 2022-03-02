@@ -1,21 +1,27 @@
 # Algo Trading
+Phrase de présentation du projet/programme.
 
 - [Algo Trading](#algo-trading)
-- [Set up répertoire:](#set-up-répertoire)
+- [Cloner le dépôt du projet:](#cloner-le-dépôt-du-projet)
+- [Aller sur le bon répertoire:](#aller-sur-le-bon-répertoire)
 - [Installer l'environnement virtuel:](#installer-lenvironnement-virtuel)
 - [Lancer le programme forcebrute:](#lancer-le-programme-forcebrute)
 - [Lancer le programme optimized:](#lancer-le-programme-optimized)
 - [Installer et run flake8:](#installer-et-run-flake8)
-  
-# Set up répertoire:
 
-`cd formation_python_projet_7_algo_trading`
+# Cloner le dépôt du projet:
+
+`git clone git@github.com:ArmandArthur/formation_python3_projet_7_algo_trading.git`
+  
+# Aller sur le bon répertoire:
+
+`cd formation_python3_projet_7_algo_trading`
 
 # Installer l'environnement virtuel:
 
-`sudo apt-get install python3.10-dev python3.10-venv`<br />
-`python -m venv .venv`<br />
-`source .venv/bin/activate` (linux)
+`python3 -m venv venv`<br />
+`source ./venv/bin/activate` (UNIX)<br />
+`./venv/scripts/activate` (windows)
 
 Les fichiers de data ont été harmonisé.
 Il suffit de lancer le programme avec le fichier en paramètre console.
@@ -23,12 +29,12 @@ Il suffit de lancer le programme avec le fichier en paramètre console.
 # Lancer le programme forcebrute:
 
 `py bruteforce.py data/shares.csv` (windows)<br />
-`python bruteforce.py data/shares.csv` (linux)
+`python3 bruteforce.py data/shares.csv` (UNIX)
 
 # Lancer le programme optimized:
 
 `py optimized.py data/shares_dataset1.csv` (windows)<br />
-`python optimized.py data/shares_dataset1.csv` (linux)
+`python3 optimized.py data/shares_dataset1.csv` (UNIX)
 
 # Installer et run flake8:
 
