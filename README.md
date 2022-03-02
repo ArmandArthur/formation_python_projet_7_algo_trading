@@ -5,7 +5,7 @@ Phrase de présentation du projet/programme.
 - [Cloner le dépôt du projet:](#cloner-le-dépôt-du-projet)
 - [Aller sur le bon répertoire:](#aller-sur-le-bon-répertoire)
 - [Installer l'environnement virtuel:](#installer-lenvironnement-virtuel)
-- [Lancer le programme forcebrute:](#lancer-le-programme-forcebrute)
+- [Lancer le programme bruteforce:](#lancer-le-programme-bruteforce)
 - [Lancer le programme optimized:](#lancer-le-programme-optimized)
 - [Installer et run flake8:](#installer-et-run-flake8)
 
@@ -26,7 +26,7 @@ Phrase de présentation du projet/programme.
 Les fichiers de data ont été harmonisé.
 Il suffit de lancer le programme avec le fichier en paramètre console.
 
-# Lancer le programme forcebrute:
+# Lancer le programme bruteforce:
 
 `py bruteforce.py data/shares.csv` (windows)<br />
 `python3 bruteforce.py data/shares.csv` (UNIX)
