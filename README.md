@@ -11,11 +11,11 @@ Phrase de présentation du projet/programme.
 
 # Cloner le dépôt du projet:
 
-`git clone git@github.com:ArmandArthur/formation_python3_projet_7_algo_trading.git`
+`git clone git@github.com:ArmandArthur/formation_python_projet_7_algo_trading.git`
   
 # Aller sur le bon répertoire:
 
-`cd formation_python3_projet_7_algo_trading`
+`cd formation_python_projet_7_algo_trading`
 
 # Installer l'environnement virtuel:
 
