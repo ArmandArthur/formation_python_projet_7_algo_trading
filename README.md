@@ -39,6 +39,6 @@ Il suffit de lancer le programme avec le fichier en paramètre console.
 # Installer et run flake8:
 
 `pip install flake8`<br />
-`flake8 > flake8_repport.txt`
+`flake8 > flake8_report.txt`
 
 
