@@ -12,7 +12,7 @@ def time_it(function):
         res = function(filename)
         elapsed = time.time() - start
         print(f"{function.__name__} --- {elapsed:.5f} seconds ---")
-        return res e
+        return res
     return wrapper
 
 

@@ -2,5 +2,4 @@
 __pycache__
 .vscode
 venv
-.venv
 flake8_report.txt
