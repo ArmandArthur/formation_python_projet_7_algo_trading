@@ -7,12 +7,12 @@ def time_it(function):
     """
         Encapsule la fonction et affiche le temps d'exécutation (decorateur)
     """
-    def wrapper(*args, **kwargs):
+    def wrapper(filename):
         start = time.time()
-        res = function(*args, **kwargs)
+        res = function(filename)
         elapsed = time.time() - start
         print(f"{function.__name__} --- {elapsed:.5f} seconds ---")
-        return res
+        return res e
     return wrapper
 
 
