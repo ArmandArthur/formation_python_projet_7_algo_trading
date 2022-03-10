@@ -31,13 +31,13 @@ def load_shares(file_name: str) -> List[Dict]:
     return shares
 
 
-def convert_shares(shares: List[Dict[str, Any]]) -> List[Tuple[str, int, int]]:
+def convert_shares(shares: List[Dict[str, Any]], coefficient: int) -> List[Tuple[str, int, int]]:
     """
         Return une liste de tuple
     """
     shares_opti = []
     for share in shares:
         if share['price'] > 0:
-            tuple = (share['name'], int(share['price']*100), int(share['gain']*100))
+            tuple = (share['name'], int(share['price']*coefficient), int(share['gain']*coefficient))
             shares_opti.append(tuple)
     return shares_opti

@@ -10,7 +10,7 @@ def optimized(file_name: str, capacite: str):
     coefficient = 100
     capacite = int(capacite)*coefficient
     shares = load_shares(file_name)
-    elements = convert_shares(shares)
+    elements = convert_shares(shares, coefficient)
     matrice = [[0 for x in range(capacite + 1)] for x in range(len(elements) + 1)]
 
     # Création de la matrice
