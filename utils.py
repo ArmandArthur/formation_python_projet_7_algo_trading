@@ -1,15 +1,15 @@
 import time
 import csv
-from typing import Dict, List
+from typing import Any, Dict, List, Tuple
 
 
 def time_it(function):
     """
         Encapsule la fonction et affiche le temps d'exécutation (decorateur)
     """
-    def wrapper(filename):
+    def wrapper(*args, **kwargs):
         start = time.time()
-        res = function(filename)
+        res = function(*args, **kwargs)
         elapsed = time.time() - start
         print(f"{function.__name__} --- {elapsed:.5f} seconds ---")
         return res
@@ -29,3 +29,15 @@ def load_shares(file_name: str) -> List[Dict]:
             share['gain'] = share['price']*float(share['profit'])/100
             shares.append(share)
     return shares
+
+
+def convert_shares(shares: List[Dict[str, Any]]) -> List[Tuple[str, int, int]]:
+    """
+        Return une liste de tuple
+    """
+    shares_opti = []
+    for share in shares:
+        if share['price'] > 0:
+            tuple = (share['name'], int(share['price']*100), int(share['gain']*100))
+            shares_opti.append(tuple)
+    return shares_opti
