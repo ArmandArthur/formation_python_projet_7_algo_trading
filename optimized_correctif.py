@@ -34,9 +34,9 @@ def optimized(file_name: str, capacite: str):
         n -= 1
 
     # Rendement
-    print(matrice[-1][-1]/coefficient)
+    print('Gains: '+str(matrice[-1][-1]/coefficient))
     # Prix dépensé
-    print(sum([share[1]/coefficient for share in elements_selection]))
+    print('Prix total: '+str(sum([share[1]/coefficient for share in elements_selection])))
     # Actions choisies
     print([share[0] for share in elements_selection])
 
