@@ -7,6 +7,7 @@ Phrase de présentation du projet/programme.
 - [Installer l'environnement virtuel:](#installer-lenvironnement-virtuel)
 - [Lancer le programme bruteforce:](#lancer-le-programme-bruteforce)
 - [Lancer le programme optimized:](#lancer-le-programme-optimized)
+- [Lancer le programme optimized (meilleur):](#lancer-le-programme-optimized-meilleur)
 - [Installer et run flake8:](#installer-et-run-flake8)
 
 # Cloner le dépôt du projet:
@@ -35,6 +36,11 @@ Il suffit de lancer le programme avec le fichier en paramètre console.
 
 `py optimized.py data/shares_dataset1.csv` (windows)<br />
 `python3 optimized.py data/shares_dataset1.csv` (UNIX)
+
+# Lancer le programme optimized (meilleur):
+
+`py optimized_correctif.py data/shares_dataset1.csv <capacite>` (windows)<br />
+`python3 optimized_correctif.py data/shares_dataset1.csv <capacite>` (UNIX)
 
 # Installer et run flake8:
 
